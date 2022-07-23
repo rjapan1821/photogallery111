@@ -34,7 +34,7 @@ engine.addEntity(Explain_Plane11)
 //-----------------Explain_Plane12---------------------------
 const Explain_Plane12 = new Entity()
 Explain_Plane12.addComponent(new Transform({
-    position: new Vector3(12.654, 15.6, 15.242),
+    position: new Vector3(12.654, 16, 15.242),
     rotation: new Quaternion(0, 0, 1, -4.371139E-08),
     scale: new Vector3(2.5, 2.5, 2.5)
 }))
