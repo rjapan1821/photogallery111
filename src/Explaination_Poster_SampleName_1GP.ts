@@ -34,9 +34,9 @@ engine.addEntity(Explain_Plane11)
 //-----------------Explain_Plane12---------------------------
 const Explain_Plane12 = new Entity()
 Explain_Plane12.addComponent(new Transform({
-    position: new Vector3(12.654, 16, 15.242),
+    position: new Vector3(12.87401, 15.79399, 15.242),
     rotation: new Quaternion(0, 0, 1, -4.371139E-08),
-    scale: new Vector3(2.5, 2.5, 2.5)
+    scale: new Vector3(2.78, 2.78, 2.78)
 }))
 engine.addEntity(Explain_Plane12)
 
@@ -196,7 +196,7 @@ UI_Back1.height = "70%"
 UI_Back1.positionY = 0
 UI_Back1.positionX = 0
 UI_Back1.color = Color4.White()
-UI_Back1.opacity = 0.5
+UI_Back1.opacity = 0.85
 UI_Back1.hAlign = "center"
 UI_Back1.vAlign = "center"
 UI_Back1.stackOrientation = UIStackOrientation.VERTICAL
@@ -320,7 +320,7 @@ close_botton.onClick = new OnClick(() => {
 const SampleName_Mat = new BasicMaterial()
 
 //★★★★SampleNameソースの 変更ポイント ★★★★★★★★★★★★★★★★★★★★★★★★
-const SampleName_Tex = new Texture("images/water.jpg")
+const SampleName_Tex = new Texture("images/SampleName.png")
 SampleName_Mat.texture = SampleName_Tex
 
 SampleName_Plane.addComponent(SampleName_Mat)
